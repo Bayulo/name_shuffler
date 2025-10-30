@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/styles.css/style.css" rel="stylesheet">
+    <title>BL's name suffler</title>
+</head>
+<body>
+    <div class="caption">COME YEAR 3 CLASS LIST SHUFFLER</div>
+
+    <div class="fields">
+        <div>
+            <label for="persons">Persons per group:</label>
+            <input id="persons" type="number"><br>
+        </div>
+        <div>
+            <label for="groups">Number of groups:</label>
+            <input id="groups" type="number"><br>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="shuffle_button">Shuffle</button>
+        <button id="download_button">Download Pdf</button>
+    </div>
+
+    <h1>Shuffled names</h1>
+    <div id="theNames"></div>
+    <script src="./assets/scripts.js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    padding: 10px;
+    font-size: large;
+    background-color: rgb(226, 219, 226);
+}
+.caption{
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    color: rgb(145, 0, 142);
+}
+button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(145, 0, 142);
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+}
+.buttons{
+    text-align: center;
+}
+.fields{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+h1{
+    color: rgb(145, 0, 142);
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(145, 0, 142);
+}
+.group_set{
+    color: rgb(145, 0, 142);
+    font-weight: bold;
+}
