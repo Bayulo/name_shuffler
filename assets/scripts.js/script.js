@@ -620,7 +620,7 @@ function display(names){
     let random_nums = shuffle(totalNames);
 
     if (names.length === 0) {
-        namesOutput.innerHTML = "No names selected.";
+        namesOutput.innerHTML = "No department(s) selected.";
         return;
     }
 
